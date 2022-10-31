@@ -126,11 +126,11 @@
 /*responsive*/
 @media (max-width: 767px) {
   .home .carousel-control-next {
-    right: 0px;
+    right: -160px;
     top: -20px;
   }
   .home .carousel-control-prev {
-    left: 0px;
+    left: -160px;
     top: -20px;
   }
   .home .carousel-indicators li {
@@ -146,11 +146,11 @@
 }
 @media (max-width: 991px) and (min-width: 768px) {
   .home .carousel-control-next {
-    right: 0px;
+    right: -250px;
     top: -20px;
   }
   .home .carousel-control-prev {
-    left: 0px;
+    left: -250px;
     top: -20px;
   }
   .home .carousel-indicators li {

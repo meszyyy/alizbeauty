@@ -46,7 +46,7 @@ const Wimpern = () => {
           <div className="col-md-5 order-md-1">
             <img
               className="featurette-image img-fluid mx-auto"
-              src="/images/wimpern/2D.png"
+              src="/images/wimpern/2D.PNG"
               alt="2D"
             />
           </div>
