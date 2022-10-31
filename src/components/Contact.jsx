@@ -23,7 +23,7 @@ const Contact = () => {
           <input
             type="hidden"
             name="_next"
-            defaultValue="https://aliz-react.herokuapp.com/redirect.html"
+            defaultValue="https://alizbeauty.herokuapp.com/redirect.html"
           />
           {/* Name input */}
           <div className="mb-3">
