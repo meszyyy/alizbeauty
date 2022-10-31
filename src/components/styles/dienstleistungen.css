@@ -1,0 +1,46 @@
+.dl-heading {
+  text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    text-decoration: underline;
+    color: #666666;
+    font-size: 2rem;
+  }
+
+  .featurette-heading,
+  .text-muted,
+  .lead {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .featurette-heading {
+    font-weight: 600;
+  }
+
+  .featurette-image{
+    border-radius: 4%;
+  }
+  
+  .text-muted, .lead {
+    font-weight: 400;
+  }
+    
+  .featurette {
+    display: flex;
+    align-items: center;
+  }
+
+  .dienstleistungen-section{
+    background: rgb(241,224,197);
+    background: linear-gradient(90deg, rgba(241,224,197,1) 0%, rgba(201,183,156,1) 50%, rgba(241,224,197,1) 100%);
+    padding-bottom: 0;
+  }
+
+  @media (max-width: 767px) {
+    .dl-heading {
+        margin-top: 0;
+      }  
+      .dienstleistungen-section{
+        padding-bottom: 0;
+      }
+  }

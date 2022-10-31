@@ -1,0 +1,49 @@
+.tipps-section {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(241, 224, 197, 1) 35%,
+    rgba(252, 252, 252, 1) 100%
+  );
+  margin-top: 40px;
+}
+
+.pfl-heading {
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 40px;
+  text-decoration: underline;
+  color: #666666;
+  font-size: 2rem;
+}
+
+li {
+  margin: 10px;
+  padding-bottom: 30px;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+.tipps-section ul {
+  padding: 0;
+  margin: 0;
+}
+
+.tipps-section ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.tipps-section i {
+  margin-right: 15px;
+  color: red;
+}
+@media (max-width: 767px) {
+  .tipps-section {
+    padding-bottom: 0;
+  }
+}

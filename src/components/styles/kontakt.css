@@ -1,0 +1,108 @@
+.kontakt-section {
+  padding-bottom: 20px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(241, 224, 197, 1) 35%,
+    rgba(252, 252, 252, 1) 100%
+  );
+}
+
+.kontakt-section h1 {
+  text-align: center;
+  margin: 8px 0px 8px;
+}
+
+#icon-grid {
+  margin-top: 80px;
+}
+
+.media-icons {
+  text-align: center;
+  padding-right: 20px;
+  padding-bottom: 30px;
+}
+
+.btn {
+  background-color: #ebebeb;
+}
+
+.btn:hover {
+  background-color: #c9b79c;
+  color: #666666;
+}
+
+.media-icons p {
+  margin-top: 20px;
+}
+
+.map {
+  overflow: hidden;
+
+  padding-bottom: 56.25%;
+
+  position: relative;
+
+  height: 0;
+
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.map iframe {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border: 0;
+  position: absolute;
+}
+
+.map2 {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .media-icons {
+    margin-top: 20px;
+  }
+
+  .kontakt-section h1 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 40px;
+    text-decoration: underline;
+    color: #666666;
+    font-size: 2rem;
+  }
+
+  .map {
+    margin: 20px;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .media-icons {
+    margin-top: 20px;
+    padding: 0;
+  }
+  .media-icons p {
+    margin-top: 5px;
+  }
+  #icon-grid {
+    margin-top: 0;
+  }
+  .map {
+    margin: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  #contactForm {
+    width: 50%;
+    margin: 0 auto;
+  }
+}

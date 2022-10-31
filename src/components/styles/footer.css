@@ -1,0 +1,22 @@
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+  }
+  
+  .footer-copyright {
+    color: #666;
+    padding: 40px 0;
+  }
+  
+  #btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: gray;
+    border: none;
+  }
+  
+  #btn-back-to-top:hover {
+    background-color: #f93154;
+  }

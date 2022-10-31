@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="5; url='https://aliz-react.herokuapp.com/'" />
+    <title>You will be redirected</title>
+  </head>
+  <body>
+    <div class="message">
+        <div className="about-logo">
+            <img
+              src="/images/logo.png"
+              width="170px"
+              height="141px"
+              alt="Aliz Beauty Logo"
+            />
+          </div>        
+      <p>Danke für dein Nachricht. Ich werde mich frühestmöglich melden!</p>
+      <p class="continue">
+        Wir werden automatisch zur Startseite rückkehren...
+      </p>
+    </div>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 10px;
+        font-family: "Montserrat", sans-serif;
+        color: #666666;
+        background: rgb(241, 224, 197);
+        background: linear-gradient(
+          90deg,
+          rgba(241, 224, 197, 1) 0%,
+          rgba(201, 183, 156, 1) 50%,
+          rgba(241, 224, 197, 1) 100%
+        );
+        display: grid;
+        height: 100vh;
+      }
+      .message {
+        place-self: center;
+        font-size: 1.5rem;
+        padding: 40px;
+        border: 1px solid #666666;
+        border-radius: 50px;
+        text-align: center;
+      }
+      .continue {
+        text-align: center;
+        font-size: 1rem;
+      }
+      .about-logo {
+      position: absolute;
+      left: 50%;
+      margin-left: -65px;
+      top: 10px;
+    }
+    </style>
+  </body>
+</html>
