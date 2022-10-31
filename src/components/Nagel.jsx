@@ -12,7 +12,7 @@ const Nagel = () => {
             <div className="carousel-inner">
               <div
                 className="carousel-item active"
-                style={{ backgroundImage: 'url("images/nagel/nagel1.jpg")' }}
+                style={{ backgroundImage: 'url("images/nagel/nagel1.JPG")' }}
               ></div>
               <div
                 className="carousel-item"
@@ -40,11 +40,11 @@ const Nagel = () => {
               ></div>
               <div
                 className="carousel-item"
-                style={{ backgroundImage: 'url("images/nagel/nagel8.png")' }}
+                style={{ backgroundImage: 'url("images/nagel/nagel8.PNG")' }}
               ></div>
               <div
                 className="carousel-item"
-                style={{ backgroundImage: 'url("images/nagel/nagel9.png")' }}
+                style={{ backgroundImage: 'url("images/nagel/nagel9.PNG")' }}
               ></div>
               <div
                 className="carousel-item"
@@ -56,7 +56,7 @@ const Nagel = () => {
               ></div>
               <div
                 className="carousel-item"
-                style={{ backgroundImage: 'url("images/nagel/nagel12.png")' }}
+                style={{ backgroundImage: 'url("images/nagel/nagel12.PNG")' }}
               ></div>
               <div
                 className="carousel-item"
@@ -69,7 +69,7 @@ const Nagel = () => {
                   data-bs-target="#carousel"
                   data-bs-slide-to={0}
                   className="active"
-                  style={{ backgroundImage: 'url("images/nagel/nagel1.jpg")' }}
+                  style={{ backgroundImage: 'url("images/nagel/nagel1.JPG")' }}
                 />
                 <li
                   data-bs-target="#carousel"
@@ -104,12 +104,12 @@ const Nagel = () => {
                 <li
                   data-bs-target="#carousel"
                   data-bs-slide-to={7}
-                  style={{ backgroundImage: 'url("images/nagel/nagel8.png")' }}
+                  style={{ backgroundImage: 'url("images/nagel/nagel8.PNG")' }}
                 />
                 <li
                   data-bs-target="#carousel"
                   data-bs-slide-to={8}
-                  style={{ backgroundImage: 'url("images/nagel/nagel9.png")' }}
+                  style={{ backgroundImage: 'url("images/nagel/nagel9.PNG")' }}
                 />
                 <li
                   data-bs-target="#carousel"
@@ -124,7 +124,7 @@ const Nagel = () => {
                 <li
                   data-bs-target="#carousel"
                   data-bs-slide-to={11}
-                  style={{ backgroundImage: 'url("images/nagel/nagel12.png")' }}
+                  style={{ backgroundImage: 'url("images/nagel/nagel12.PNG")' }}
                 />
                 <li
                   data-bs-target="#carousel"
