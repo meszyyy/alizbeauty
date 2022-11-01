@@ -48,9 +48,8 @@ const Navbar = () => {
                   href="https://facebook.com/alizbeautygraz"
                   target="_blank"
                   rel='noopener noreferrer'
-                >
-                  <FaFacebookF />
-                  <IconContext.Provider />
+                ><span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
+                  <FaFacebookF /></span>
                 </a>
               </li>
               <li className="nav-item">
@@ -59,8 +58,8 @@ const Navbar = () => {
                   href="https://instagram.com/alizbeauty_graz"
                   target="_blank"
                   rel='noopener noreferrer'
-                >
-                    <FaInstagram />
+                ><span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
+                    <FaInstagram /></span>
                 </a>
               </li>
               <li className="nav-item">
@@ -69,8 +68,8 @@ const Navbar = () => {
                   href="mailto:heilingaliz17@gmail.com"
                   target="_blank"
                   rel='noopener noreferrer'
-                >
-                <FaEnvelope/>
+                ><span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
+                <FaEnvelope/></span>
                 </a>
               </li>
               <li className="nav-item">
@@ -79,28 +78,28 @@ const Navbar = () => {
                   href="tel:004368120252649"
                   target="_blank"
                   rel='noopener noreferrer'
-                >
-                  <FaMobileAlt />
+                ><span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
+                  <FaMobileAlt /></span>
                 </a>
               </li></IconContext.Provider>
             </ul>
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link to="/" className="nav-link">
-                  <span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Über mich</span></Link>
+                  <span style={{display: "block"}} data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Über mich</span></Link>
               </li>
               <li className="nav-item">
                 <Link to="/nagel" className="nav-link">
-                <span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Nägel</span></Link>
+                <span style={{display: "block"}} data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Nägel</span></Link>
               </li>
               <li className="nav-item">
                 <Link to="/wimpern" className="nav-link">
-                <span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Wimpern</span>
+                <span style={{display: "block"}} data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Wimpern</span>
                 </Link>
               </li>
               <li className="nav-item">
                 <HashLink to="/#kontakt" className="nav-link">
-                <span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Kontakt</span>
+                <span style={{display: "block"}} data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Kontakt</span>
                 </HashLink>
               </li>
             </ul>

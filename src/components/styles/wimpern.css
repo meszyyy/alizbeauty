@@ -1,0 +1,89 @@
+@font-face {
+    font-family: myFont;
+    src: url("LeJourScript.otf");
+  }
+
+  .featurette-heading,
+  .text-muted,
+  .lead {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .featurette-heading {
+    font-weight: 600;
+  }
+
+  .featurette-image{
+    border-radius: 4%;
+  }
+  
+  .text-muted, .lead {
+    font-weight: 400;
+  }
+    
+  .featurette {
+    display: flex;
+    align-items: center;
+  }
+
+  .lash-section{
+    background: rgb(241,224,197);
+    background: linear-gradient(90deg, rgba(241,224,197,1) 0%, rgba(201,183,156,1) 50%, rgba(241,224,197,1) 100%);
+    padding-bottom: 0;
+  }
+
+.top-heading {
+  text-align: center;
+  margin-top: 160px;
+  margin-bottom: 40px;
+  color: #666666;
+  font-size: 2rem;
+  font-family: myFont;
+  font-weight: 600;
+}
+
+.price-table-lash {
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.price-section-lash {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(241, 224, 197, 1) 35%,
+    rgba(252, 252, 252, 1) 100%
+  );
+  margin-top: 40px;
+}
+
+.price-table-lash thead {
+  border-bottom: 1px solid white;
+  font-weight: 600;
+  color: #666666;
+}
+
+.price-table-lash td {
+  width: 33%;
+}
+
+@media (max-width: 767px) {
+  .price-table-lash {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .top-heading {
+    margin-top: 60px;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .price-table-lash {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .lash-section{
+    padding-bottom: 0;
+  }
+}

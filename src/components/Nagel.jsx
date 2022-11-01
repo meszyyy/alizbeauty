@@ -7,7 +7,7 @@ const Nagel = () => {
     <div>
       <div className="container">
         <div className="home">
-          <h1 className="dl-heading">Nägel</h1>
+          <h1 className="top-heading">Nägel</h1>
           <div id="carousel" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
               <div
@@ -154,7 +154,7 @@ const Nagel = () => {
       </div>
       <div className="container-fluid price-section">
         <div className="container price-table py-3">
-          <h1 className="dl-heading">Preisliste</h1>
+          <h1 className="mid-heading">Preisliste</h1>
           <table className="table table-borderless">
             <tbody>
               <tr>

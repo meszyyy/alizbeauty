@@ -7,7 +7,7 @@ import { IconContext } from "react-icons";
 const Tipps = () => {
     return (
         <div ><section className="section tipps-section" id="tipps" href="#tipps" >
-        <h1 className="pfl-heading">Pflegetipps</h1><IconContext.Provider value={{ size: "1.5em" }}>
+        <h1 className="mid-heading">Pflegetipps</h1><IconContext.Provider value={{ size: "1.5em" }}>
         <ul>
           <li><FaExclamation />In den ersten 24 Stunden Wasser vermeiden!</li>
           <li><FaExclamation />Benutze keine ölhaltige Produkte!</li>

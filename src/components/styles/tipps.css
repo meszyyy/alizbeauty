@@ -1,12 +1,6 @@
 .tipps-section {
-  background: rgb(255, 255, 255);
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(241, 224, 197, 1) 35%,
-    rgba(252, 252, 252, 1) 100%
-  );
-  margin-top: 40px;
+  background: rgb(241,224,197);
+background: linear-gradient(90deg, rgba(241,224,197,1) 0%, rgba(201,183,156,1) 50%, rgba(241,224,197,1) 100%);
 }
 
 .pfl-heading {
@@ -14,7 +8,6 @@
   margin-top: 0;
   padding-top: 0;
   margin-bottom: 40px;
-  text-decoration: underline;
   color: #666666;
   font-size: 2rem;
 }
