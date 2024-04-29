@@ -12,20 +12,11 @@ const Contact = () => {
     <div className="section kontakt-section" id="kontakt" href="#kontakt">
       <h1>Kontakt / Termin vereinbaren</h1>
       <div className="container py-4">
-        {/* Bootstrap 5 starter form */}
         <form
-          action="https://formsubmit.co/meszarostamas1989@gmail.com"
+          action="https://public.herotofu.com/v1/954ec680-86af-11ed-b38f-a1ed22f366b1"
           method="POST"
           id="contactForm"
         >
-          <input type="text" name="_honey" style={{ display: "none" }} />
-          <input type="hidden" name="_captcha" defaultValue="false" />
-          <input
-            type="hidden"
-            name="_next"
-            defaultValue="https://alizbeauty.herokuapp.com/redirect.html"
-          />
-          {/* Name input */}
           <div className="mb-3">
             <label className="form-label" htmlFor="name">
               Name
@@ -38,7 +29,6 @@ const Contact = () => {
               required
             />
           </div>
-          {/* Email address input */}
           <div className="mb-3">
             <label className="form-label" htmlFor="email">
               Email Adresse
@@ -51,7 +41,6 @@ const Contact = () => {
               required
             />
           </div>
-          {/* Phone address input */}
           <div className="mb-3">
             <label className="form-label" htmlFor="phone">
               Telefon
@@ -64,7 +53,6 @@ const Contact = () => {
               required
             />
           </div>
-          {/* Message input */}
           <div className="mb-3">
             <label className="form-label" htmlFor="message">
               Nachricht
@@ -79,7 +67,6 @@ const Contact = () => {
               defaultValue={""}
             />
           </div>
-          {/* Form submit button */}
           <div className="d-grid">
             <button
               className="btn btn-lg"
@@ -131,13 +118,13 @@ const Contact = () => {
             <div className="col-lg-3 justify-content-center">
               <div className="media-icons">
                 <a
-                  href="mailto:heilingaliz17@gmail.com"
+                  href="mailto:info@alizbeauty.at"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <FaEnvelope style={{ color: "#cb2027" }} />
                 </a>
-                <p>heilingaliz17@gmail.com</p>
+                <p>info@alizbeauty.at</p>
               </div>
             </div>
             <div className="col-lg-3 justify-content-center">
@@ -158,7 +145,7 @@ const Contact = () => {
 
       <div className="map2 embed-responsive embed-responsive-21by9">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10881.100351636824!2d15.3983119!3d47.0152051!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xefff05a7af4400a8!2sAliz%20Beauty!5e0!3m2!1shu!2sat!4v1654237702918!5m2!1shu!2sat"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2717.525122501087!2d15.456995077422365!3d47.06916502493408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476e4a62af74423d%3A0xaea69d0478e416fa!2sSchillerpl.%2013%2C%208010%20Graz!5e0!3m2!1shu!2sat!4v1697883912484!5m2!1shu!2sat"          
           title="map"
           width='800px"'
           height="300px"

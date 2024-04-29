@@ -65,7 +65,7 @@ const Navbar = () => {
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href="mailto:heilingaliz17@gmail.com"
+                  href="mailto:info@alizbeauty.at"
                   target="_blank"
                   rel='noopener noreferrer'
                 ><span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
@@ -89,12 +89,8 @@ const Navbar = () => {
                   <span style={{display: "block"}} data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Über mich</span></Link>
               </li>
               <li className="nav-item">
-                <Link to="/nagel" className="nav-link">
-                <span style={{display: "block"}} data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Nägel</span></Link>
-              </li>
-              <li className="nav-item">
                 <Link to="/wimpern" className="nav-link">
-                <span style={{display: "block"}} data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Wimpern</span>
+                <span style={{display: "block"}} data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Wimpern/Preise</span>
                 </Link>
               </li>
               <li className="nav-item">

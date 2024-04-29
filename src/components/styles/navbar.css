@@ -152,10 +152,10 @@
     .logo-open {
       position: fixed;
       left: 50%;
-      margin-left: -75px;
-      top: 0;
-      width: 150px;
-      height: 125px;
+      margin-left: -125px;
+      top: -50px;
+      width: 250px;
+      height: 250px;
     }
   }
 
@@ -163,9 +163,9 @@
     .logo-open {
       position: fixed;
       left: 50%;
-      margin-left: -75px;
-      top: 0;
-      width: 150px;
-      height: 125px;
+      margin-left: -125px;
+      top: -50px;
+      width: 250px;
+      height: 250px;
     }
   }

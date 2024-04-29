@@ -12,7 +12,7 @@ const Nagel = () => {
             <div className="carousel-inner">
               <div
                 className="carousel-item active"
-                style={{ backgroundImage: 'url("images/nagel/nagel1.JPG")' }}
+                style={{ backgroundImage: 'url("images/nagel/nagel1.jpg")' }}
               ></div>
               <div
                 className="carousel-item"
@@ -40,11 +40,11 @@ const Nagel = () => {
               ></div>
               <div
                 className="carousel-item"
-                style={{ backgroundImage: 'url("images/nagel/nagel8.PNG")' }}
+                style={{ backgroundImage: 'url("images/nagel/nagel8.png")' }}
               ></div>
               <div
                 className="carousel-item"
-                style={{ backgroundImage: 'url("images/nagel/nagel9.PNG")' }}
+                style={{ backgroundImage: 'url("images/nagel/nagel9.png")' }}
               ></div>
               <div
                 className="carousel-item"
@@ -56,7 +56,7 @@ const Nagel = () => {
               ></div>
               <div
                 className="carousel-item"
-                style={{ backgroundImage: 'url("images/nagel/nagel12.PNG")' }}
+                style={{ backgroundImage: 'url("images/nagel/nagel12.png")' }}
               ></div>
               <div
                 className="carousel-item"
@@ -69,7 +69,7 @@ const Nagel = () => {
                   data-bs-target="#carousel"
                   data-bs-slide-to={0}
                   className="active"
-                  style={{ backgroundImage: 'url("images/nagel/nagel1.JPG")' }}
+                  style={{ backgroundImage: 'url("images/nagel/nagel1.jpg")' }}
                 />
                 <li
                   data-bs-target="#carousel"
@@ -104,12 +104,12 @@ const Nagel = () => {
                 <li
                   data-bs-target="#carousel"
                   data-bs-slide-to={7}
-                  style={{ backgroundImage: 'url("images/nagel/nagel8.PNG")' }}
+                  style={{ backgroundImage: 'url("images/nagel/nagel8.png")' }}
                 />
                 <li
                   data-bs-target="#carousel"
                   data-bs-slide-to={8}
-                  style={{ backgroundImage: 'url("images/nagel/nagel9.PNG")' }}
+                  style={{ backgroundImage: 'url("images/nagel/nagel9.png")' }}
                 />
                 <li
                   data-bs-target="#carousel"
@@ -124,7 +124,7 @@ const Nagel = () => {
                 <li
                   data-bs-target="#carousel"
                   data-bs-slide-to={11}
-                  style={{ backgroundImage: 'url("images/nagel/nagel12.PNG")' }}
+                  style={{ backgroundImage: 'url("images/nagel/nagel12.png")' }}
                 />
                 <li
                   data-bs-target="#carousel"
@@ -159,33 +159,10 @@ const Nagel = () => {
             <tbody>
               <tr>
                 <td>Maniküre für Damen und Herren</td>
-                <td>25€</td>
-              </tr>
-              <tr>
-                <td>UV-Gellack</td>
-                <td>30€</td>
-              </tr>
-              <tr style={{ borderBottom: "1px solid white" }}>
-                <td colspan="100%"></td>
-              </tr>
-              <tr>
-                <td className="tableHeader" colSpan="3">
-                  Naturnägelverstärkung
-                </td>
-              </tr>
-              <tr>
-                <td>S</td>
-                <td>35€</td>
                 <td>30€</td>
               </tr>
               <tr>
-                <td>M</td>
-                <td>40€</td>
-                <td>35€</td>
-              </tr>
-              <tr>
-                <td>L</td>
-                <td>45€</td>
+                <td>UV-Gellack (inkl. Design)</td>
                 <td>40€</td>
               </tr>
               <tr style={{ borderBottom: "1px solid white" }}>
@@ -193,7 +170,7 @@ const Nagel = () => {
               </tr>
               <tr>
                 <td className="tableHeader" colSpan="3">
-                  Nagelverlängerung
+                  Naturnägelverstärkung (inkl. Design)
                 </td>
               </tr>
               <tr>
@@ -208,32 +185,15 @@ const Nagel = () => {
               </tr>
               <tr>
                 <td>L</td>
+                <td>60€</td>
                 <td>55€</td>
-                <td>50€</td>
               </tr>
               <tr style={{ borderBottom: "1px solid white" }}>
                 <td colspan="100%"></td>
-              </tr>
-              <tr>
-                <td className="tableHeader" colSpan="3">
-                  Design und Extras: (inkl. 2 Nägel)
-                </td>
-              </tr>
-              <tr>
-                <td>Strass-Stein pro Nagel</td>
-                <td>0.20€</td>
-              </tr>
-              <tr>
-                <td>Design pro Nagel</td>
-                <td>2€</td>
               </tr>
               <tr>
                 <td>Kunstnägel entfernen</td>
-                <td>20€</td>
-              </tr>
-              <tr>
-                <td>Nagelreparatur</td>
-                <td>5€</td>
+                <td>25€</td>
               </tr>
             </tbody>
           </table>

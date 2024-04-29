@@ -8,28 +8,20 @@ const Footer = () => {
       <footer className="page-footer">
         <div className="container">
           <div className="row">
-            <div className="col-lg-8 col-md-8 col-sm-12">
-              <h6 className="text-uppercase font-weight-bold">
-                Additional Information
-              </h6>
+            <div className="col-lg-12 col-sm-12 text-center">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-                interdum quam odio, quis placerat ante luctus eu. Sed aliquet
-                dolor id sapien rutrum, id vulputate quam iaculis.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-                interdum quam odio, quis placerat ante luctus eu. Sed aliquet
-                dolor id sapien rutrum, id vulputate quam iaculis.
-              </p>
-            </div>
-            <div className="col-lg-4 col-md-4 col-sm-12">
-              <h6 className="text-uppercase font-weight-bold">Kontakt</h6>
-              <p>
-                8054, Seiersberg, Kärntner Straße 510
+                Aliz Meszaros
+                <br/>
+                Schillerplatz 13, 8010 Graz
                 <br />
-                info@alizbeauty.com
+                info@alizbeauty.at
                 <br />+ 43 681 202 52 649
+                <br/>
+                <a href="https://firmen.wko.at/aliz-m%C3%A9sz%C3%A1ros/steiermark/?firmaid=4f02febb-888e-476d-8451-b8dccde02b6a" target="_blank" rel="noopener noreferrer">Link WKO</a>
+                <br/>
+                <a href="/datenschutz.html" target="_blank" rel="noopener noreferrer">Datenschutz</a>
+                <br/>
+                <a href="/hausordnung.html" target="_blank" rel="noopener noreferrer">Hausordnung</a>
               </p>
             </div>
           </div>

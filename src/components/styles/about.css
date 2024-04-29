@@ -19,7 +19,7 @@
   }
     
   h3 {
-    font-family: myFont;
+    font-family: serif;
     color: #666666;
     padding-top: 120px;
     font-weight: bold;
@@ -62,9 +62,9 @@ background: linear-gradient(90deg, rgba(241,224,197,1) 0%, rgba(201,183,156,1) 5
     .about-logo {
       position: absolute;
       left: 50%;
-      margin-left: -65px;
-      top: 10px;
-      width: 130px;
+      margin-left: -115px;
+      top: -15px;
+      width: 250px;
     }
   }
 
@@ -80,10 +80,10 @@ background: linear-gradient(90deg, rgba(241,224,197,1) 0%, rgba(201,183,156,1) 5
     .about-logo {
       position: absolute;
       left: 50%;
-      margin-left: -75px;
-      top: 10px;
-      width: 150px;
-      height: 125px;
+      margin-left: -110px;
+      top: -15px;
+      width: 250px;
+      height: 250px;
     }
   }
   

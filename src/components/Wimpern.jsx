@@ -8,31 +8,11 @@ const Wimpern = () => {
     <div>
       <div className="section lash-section" id="dienstleistungen">
         <div className="container">
-          <h1 className="top-heading">Wimpern</h1>
-          <div className="row featurette">
-            <div className="col-md-7">
-              <h2 className="featurette-heading">1:1 Technik.</h2>
-              <h2 className="text-muted">Bist du natürliche Typ?</h2>
-              <p className="lead">
-                Bei der klassischen 1:1-Technik wird für Ihre professionell
-                durchgeführte Wimpernverlängerung immer je eine künstliche
-                Wimper auf je eine eigene Naturwimper aufgesetzt.
-              </p>
-              <p>Neuset: ca. 2 Stunde</p>
-            </div>
-            <div className="col-md-5">
-              <img
-                className="featurette-image img-fluid mx-auto"
-                src="/images/wimpern/1D.png"
-                alt="1D"
-              />
-            </div>
-          </div>
-          <hr className="featurette-divider" />
+          <h1 className="top-heading">Wimpernverlängerung</h1>
           <div className="row featurette">
             <div className="col-md-7 order-md-2">
-              <h2 className="featurette-heading">1:2 Technik.</h2>
-              <h2 className="text-muted">Ein bisschen mehr.</h2>
+              <h2 className="featurette-heading">2D Technik.</h2>
+              <h2 className="text-muted">Bist du natürliche Typ?</h2>
               <p className="lead">
                 Die 2D Wimpernverlängerung ist das nächste Level von der
                 klassischen 1:1 Wimpern-Technik. Während bei der Einzeltechnik
@@ -41,32 +21,181 @@ const Wimpern = () => {
               </p>
               <p>Neuset: ca. 2,5 Stunde</p>
             </div>
-            <div className="col-md-5 order-md-1">
-              <img
-                className="featurette-image img-fluid mx-auto"
-                src="/images/wimpern/2D.PNG"
-                alt="2D"
-              />
+            <div
+              id="carouselExampleIndicators2D"
+              class="carousel slide col-md-5"
+              data-bs-ride="carousel"
+            >
+              <div className="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators2D"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators2D"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators2D"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div className="carousel-inner">
+                <div className="carousel-item active" data-bs-interval="3000">
+                  <img
+                    className="featurette-image img-fluid mx-auto"
+                    src="images/wimpern/2D_2.JPEG"
+                    alt="2D Wimpernverlängerung"
+                  />
+                </div>
+                <div className="carousel-item" data-bs-interval="3000">
+                  <img
+                    className="featurette-image img-fluid mx-auto"
+                    src="images/wimpern/2D_1.PNG"
+                    alt="2D Wimpernverlängerung"
+                  />
+                </div>
+                <div className="carousel-item" data-bs-interval="3000">
+                  <img
+                    className="featurette-image img-fluid mx-auto"
+                    src="images/wimpern/2D_4.JPEG"
+                    alt="2D Wimpernverlängerung"
+                  />
+                </div>
+              </div>
+              <button
+                className="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators2D"
+                data-bs-slide="prev"
+              >
+                <span
+                  className="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span className="visually-hidden">Previous</span>
+              </button>
+              <button
+                className="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators2D"
+                data-bs-slide="next"
+              >
+                <span
+                  className="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span className="visually-hidden">Next</span>
+              </button>
             </div>
           </div>
           <hr className="featurette-divider" />
           <div className="row featurette">
             <div className="col-md-7">
               <h2 className="featurette-heading">3-4D Volumentechnik.</h2>
-              <h2 className="text-muted">Für die Glamouröse.</h2>
+              <h2 className="text-muted">Ein bisschen mehr.</h2>
               <p className="lead">
                 Die 3D oder 4D Volumentechnik kommt vor allem, für all jene
                 Damen in Frage die sich gerne zeigen und gerne im Mittelpunkt
                 stehen. Denn mit diesen Wimpern fällt man garantiert auf.
               </p>
-              <p>Neuset: ca. 3,5 Stunde</p>
+              <p>Neuset: ca. 3 Stunde</p>
             </div>
-            <div className="col-md-5">
-              <img
-                className="featurette-image img-fluid mx-auto"
-                src="/images/wimpern/3-4D.jpg"
-                alt="3/4D"
-              />
+            <div
+              id="carouselExampleIndicators34D"
+              class="carousel slide col-md-5"
+              data-bs-ride="carousel"
+            >
+              <div className="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators34D"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators34D"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators34D"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators34D"
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4"
+                ></button>
+              </div>
+              <div className="carousel-inner">
+                <div className="carousel-item active" data-bs-interval="3000">
+                  <img
+                    className="featurette-image img-fluid mx-auto"
+                    src="images/wimpern/3-4D_1.JPG"
+                    alt="3-4D Wimpernverlängerung"
+                  />
+                </div>
+                <div className="carousel-item" data-bs-interval="3000">
+                  <img
+                    className="featurette-image img-fluid mx-auto"
+                    src="images/wimpern/3-4D_2.JPEG"
+                    alt="3-4D Wimpernverlängerung"
+                  />
+                </div>
+                <div className="carousel-item" data-bs-interval="3000">
+                  <img
+                    className="featurette-image img-fluid mx-auto"
+                    src="images/wimpern/3-4D_3.JPG"
+                    alt="3-4D Wimpernverlängerung"
+                  />
+                </div>
+                <div className="carousel-item" data-bs-interval="3000">
+                  <img
+                    className="featurette-image img-fluid mx-auto"
+                    src="images/wimpern/3-4D_5.PNG"
+                    alt="3-4D Wimpernverlängerung"
+                  />
+                </div>
+              </div>
+              <button
+                className="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators34D"
+                data-bs-slide="prev"
+              >
+                <span
+                  className="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span className="visually-hidden">Previous</span>
+              </button>
+              <button
+                className="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators34D"
+                data-bs-slide="next"
+              >
+                <span
+                  className="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span className="visually-hidden">Next</span>
+              </button>
             </div>
           </div>
           <hr className="featurette-divider" />
@@ -77,16 +206,16 @@ const Wimpern = () => {
               <p className="lead">
                 Bei dieser Wimpern-Technik werden an jedem natürlichen
                 Wimpernhaar gleich mehrere feine Kunstwimpern appliziert. Beim
-                Wimpern verlängern werdern genauer gesagt sechs Wimpern an eine
-                natürliche Wimpern angebracht.
+                Wimpern verlängern werden genauer gesagt 5 oder 6 Wimpern an
+                eine natürliche Wimpern angebracht.
               </p>
               <p>Neuset: ca. 3,5 Stunde</p>
             </div>
             <div className="col-md-5 order-md-1">
               <img
                 className="featurette-image img-fluid mx-auto"
-                src="/images/wimpern/5-6D.jpg"
-                alt="5/6D"
+                src="images/wimpern/5-6D.PNG"
+                alt="5/6D Wimpernverlängerung"
               />
             </div>
           </div>
@@ -94,51 +223,78 @@ const Wimpern = () => {
       </div>
       <div className="container-fluid price-section-lash">
         <div className="container price-table-lash py-3">
-          <h1 className="mid-heading">Preisliste</h1>
-          <table className="table table-borderless text-center">
-            <thead className="text-center">
+          <h1 className="mid-heading" style={{ marginBottom: "0px" }}>
+            Preisliste
+          </h1>
+          <h1 className="mid-heading" style={{ marginTop: "5px" }}>
+            (gültig ab 1.5.2024)
+          </h1>
+          <table className="table table-borderless">
+            <tbody>
               <tr>
-                <th></th>
-                <th>Neuset</th>
-                <th>Einfüllen</th>
-              </tr>
-            </thead>
-            <tbody className="text-center">
-              <tr>
-                <td>1D</td>
-                <td>45€</td>
-                <td>35€</td>
+                <td>2D Wimpern Neuset</td>
+                <td className="text-end">100€</td>
               </tr>
               <tr>
-                <td>2D</td>
-                <td>50€</td>
-                <td>40€</td>
+                <td>Auffüllen:</td>
               </tr>
               <tr>
-                <td>3D</td>
-                <td>55€</td>
-                <td>45€</td>
+                <td>2 Wochen</td>
+                <td className="text-end">50€</td>
               </tr>
               <tr>
-                <td>4D</td>
-                <td>60€</td>
-                <td>50€</td>
+                <td>3 Wochen</td>
+                <td className="text-end">60€</td>
+              </tr>
+              <tr style={{ borderBottom: "1px solid white" }}>
+                <td colspan="100%"></td>
               </tr>
               <tr>
-                <td>5D</td>
-                <td>65€</td>
-                <td>55€</td>
+                <td>3-4D Wimpern Neuset</td>
+                <td className="text-end">110€</td>
               </tr>
               <tr>
-                <td>1D</td>
-                <td>80€</td>
-                <td>60€</td>
+                <td>Auffüllen:</td>
+              </tr>
+              <tr>
+                <td>2 Wochen</td>
+                <td className="text-end">60€</td>
+              </tr>
+              <tr>
+                <td>3 Wochen</td>
+                <td className="text-end">75€</td>
+              </tr>
+              <tr style={{ borderBottom: "1px solid white" }}>
+                <td colspan="100%"></td>
+              </tr>
+              <tr>
+                <td>5-6D Wimpern Neuset</td>
+                <td className="text-end">125€</td>
+              </tr>
+              <tr>
+                <td>Auffüllen:</td>
+              </tr>
+              <tr>
+                <td>2 Wochen</td>
+                <td className="text-end">70€</td>
+              </tr>
+              <tr>
+                <td>3 Wochen</td>
+                <td className="text-end">85€</td>
+              </tr>
+              <tr style={{ borderBottom: "1px solid white" }}>
+                <td colspan="100%"></td>
               </tr>
             </tbody>
           </table>
-            <p>Neubehandlung wird verrechnet:<br/>- bei mehr als 4 Wochen<br/>- bei 15 Kunstwimpern oder weniger<br/>- Behandlung nach einer anderen Lash Stylistin</p>
+          <p>
+            Neubehandlung wird verrechnet:
+            <br />- bei mehr als 3 Wochen
+            <br />- bei 15 Kunstwimpern oder weniger
+            <br />- Behandlung nach einer anderen Lash Stylistin
+          </p>
         </div>
-      </div>      
+      </div>
       <Tipps />
     </div>
   );

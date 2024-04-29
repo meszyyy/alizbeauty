@@ -20,3 +20,8 @@
   #btn-back-to-top:hover {
     background-color: #f93154;
   }
+
+  a{
+    text-decoration: none;
+    color: #666666;
+  }

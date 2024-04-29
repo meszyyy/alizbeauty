@@ -38,7 +38,7 @@
   margin-bottom: 40px;
   color: #666666;
   font-size: 2rem;
-  font-family: myFont;
+  font-family: serif;
   font-weight: 600;
 }
 
@@ -62,10 +62,6 @@
   border-bottom: 1px solid white;
   font-weight: 600;
   color: #666666;
-}
-
-.price-table-lash td {
-  width: 33%;
 }
 
 @media (max-width: 767px) {

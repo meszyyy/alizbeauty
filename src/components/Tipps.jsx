@@ -11,9 +11,9 @@ const Tipps = () => {
         <ul>
           <li><FaExclamation />In den ersten 24 Stunden Wasser vermeiden!</li>
           <li><FaExclamation />Benutze keine ölhaltige Produkte!</li>
-          <li><FaExclamation />Wimpernzange ist tabu!</li>
-          <li><FaExclamation />Schminke dich nicht mit wasserfester Mascara!</li>
-          <li><FaExclamation />Vermeide es, an den Wimpern zu!</li>
+          <li><FaExclamation />Wimpernzange ist Tabu!</li>
+          <li><FaExclamation />Schminke dich nicht mit Mascara!</li>
+          <li><FaExclamation />Nicht an den Wimpern reiben, ziehen und zupfen!</li>
         </ul></IconContext.Provider>
       </section>
             
