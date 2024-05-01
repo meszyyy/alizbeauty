@@ -21,11 +21,12 @@
 
 .btn {
   background-color: #ebebeb;
+  color: #955e5e;
 }
 
 .btn:hover {
-  background-color: #c9b79c;
-  color: #A87676;
+  background-color: #e1acac;
+  color: #955e5e;
 }
 
 .media-icons p {
@@ -70,7 +71,7 @@
     padding-top: 0;
     margin-bottom: 40px;
     text-decoration: underline;
-    color: #A87676;
+    color: #955e5e;
     font-size: 2rem;
   }
 

@@ -166,7 +166,7 @@ const Nagel = () => {
                 <td>40€</td>
               </tr>
               <tr style={{ borderBottom: "1px solid white" }}>
-                <td colspan="100%"></td>
+                <td colSpan="100%"></td>
               </tr>
               <tr>
                 <td className="tableHeader" colSpan="3">
@@ -189,7 +189,7 @@ const Nagel = () => {
                 <td>55€</td>
               </tr>
               <tr style={{ borderBottom: "1px solid white" }}>
-                <td colspan="100%"></td>
+                <td colSpan="100%"></td>
               </tr>
               <tr>
                 <td>Kunstnägel entfernen</td>

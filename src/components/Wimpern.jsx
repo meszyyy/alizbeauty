@@ -23,7 +23,7 @@ const Wimpern = () => {
             </div>
             <div
               id="carouselExampleIndicators2D"
-              class="carousel slide col-md-5"
+              className="carousel slide col-md-5"
               data-bs-ride="carousel"
             >
               <div className="carousel-indicators">
@@ -31,7 +31,7 @@ const Wimpern = () => {
                   type="button"
                   data-bs-target="#carouselExampleIndicators2D"
                   data-bs-slide-to="0"
-                  class="active"
+                  className="active"
                   aria-current="true"
                   aria-label="Slide 1"
                 ></button>
@@ -111,7 +111,7 @@ const Wimpern = () => {
             </div>
             <div
               id="carouselExampleIndicators34D"
-              class="carousel slide col-md-5"
+              className="carousel slide col-md-5"
               data-bs-ride="carousel"
             >
               <div className="carousel-indicators">
@@ -119,7 +119,7 @@ const Wimpern = () => {
                   type="button"
                   data-bs-target="#carouselExampleIndicators34D"
                   data-bs-slide-to="0"
-                  class="active"
+                  className="active"
                   aria-current="true"
                   aria-label="Slide 1"
                 ></button>
@@ -229,7 +229,7 @@ const Wimpern = () => {
           <h1 className="mid-heading" style={{ marginTop: "5px" }}>
             (gültig ab 1.5.2024)
           </h1>
-          <table className="table table-borderless">
+          <table className="table table-borderless" style={{color: "#955e5e"}}>
             <tbody>
               <tr>
                 <td>2D Wimpern Neuset</td>
@@ -246,8 +246,8 @@ const Wimpern = () => {
                 <td>3 Wochen</td>
                 <td className="text-end">60€</td>
               </tr>
-              <tr style={{ borderBottom: "1px solid white" }}>
-                <td colspan="100%"></td>
+              <tr style={{ borderBottom: "1px solid #333333" }}>
+                <td colSpan="100%"></td>
               </tr>
               <tr>
                 <td>3-4D Wimpern Neuset</td>
@@ -264,8 +264,8 @@ const Wimpern = () => {
                 <td>3 Wochen</td>
                 <td className="text-end">75€</td>
               </tr>
-              <tr style={{ borderBottom: "1px solid white" }}>
-                <td colspan="100%"></td>
+              <tr style={{ borderBottom: "1px solid #333333" }}>
+                <td colSpan="100%"></td>
               </tr>
               <tr>
                 <td>5-6D Wimpern Neuset</td>
@@ -282,8 +282,8 @@ const Wimpern = () => {
                 <td>3 Wochen</td>
                 <td className="text-end">85€</td>
               </tr>
-              <tr style={{ borderBottom: "1px solid white" }}>
-                <td colspan="100%"></td>
+              <tr style={{ borderBottom: "1px solid #333333" }}>
+                <td colSpan="100%"></td>
               </tr>
             </tbody>
           </table>

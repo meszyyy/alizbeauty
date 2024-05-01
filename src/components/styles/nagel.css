@@ -2,7 +2,7 @@
   text-align: center;
   margin-top: 160px;
   margin-bottom: 40px;
-  color: #A87676;
+  color: #955e5e;
   font-size: 2rem;
   font-family: myFont;
   font-weight: 600;
@@ -47,7 +47,7 @@
 .tableHeader{
 	text-align: center;
 	font-weight:600;
-	color: #A87676;
+	color: #955e5e;
   }
 
 @keyframes fadeInLeft {

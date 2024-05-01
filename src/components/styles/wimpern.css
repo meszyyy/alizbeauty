@@ -10,13 +10,13 @@
   }
 
   .heading-subtext{
-    color:#ca8787;
-    font-weight: 400;
+    color:#333333;
     font-family: "Montserrat", sans-serif;
   }
   
   .featurette-heading {
-    font-weight: 600;
+    font-weight:bold;
+    color: #333333;
   }
 
   .featurette-image{
@@ -32,6 +32,10 @@
     align-items: center;
   }
 
+  .featurette-divider{
+    color:#333333;
+  }
+
   .lash-section{
    /*  background: rgb(255,208,208);
 background: linear-gradient(90deg, rgba(255,208,208,1) 0%, rgba(225,172,172,1) 50%, rgba(255,208,208,1) 100%); */
@@ -43,9 +47,9 @@ background: #e1acac;
   text-align: center;
   margin-top: 160px;
   margin-bottom: 40px;
-  color: #A87676;
+  color: #333333;
   font-size: 2rem;
-  font-family: serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
 }
 
@@ -62,7 +66,7 @@ background: #e1acac;
 .price-table-lash thead {
   border-bottom: 1px solid white;
   font-weight: 600;
-  color: #A87676;
+  color: #955e5e;
 }
 
 @media (max-width: 767px) {

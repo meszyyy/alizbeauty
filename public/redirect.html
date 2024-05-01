@@ -6,44 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="refresh" content="5; url='http://alizbeauty.at/'" />
     <title>You will be redirected</title>
-  </head>
-  <body>
-    <div class="message">
-        <div className="about-logo">
-            <img
-              src="/images/logo.png"
-              width="170px"
-              height="141px"
-              alt="Aliz Beauty Logo"
-            />
-          </div>        
-      <p>Danke für dein Nachricht. Ich werde mich frühestmöglich melden!</p>
-      <p class="continue">
-        Wir werden automatisch zur Startseite rückkehren...
-      </p>
-    </div>
-
     <style>
       body {
         margin: 0;
         padding: 10px;
         font-family: "Montserrat", sans-serif;
-        color: #A87676;
-        background: rgb(241, 224, 197);
-        background: linear-gradient(
-          90deg,
-          rgba(241, 224, 197, 1) 0%,
-          rgba(201, 183, 156, 1) 50%,
-          rgba(241, 224, 197, 1) 100%
-        );
-        display: grid;
+        color: #955e5e;
+        background: #e1acac;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         height: 100vh;
       }
       .message {
-        place-self: center;
         font-size: 1.5rem;
         padding: 40px;
-        border: 1px solid #A87676;
+        border: 1px solid #955e5e;
         border-radius: 50px;
         text-align: center;
       }
@@ -52,11 +30,27 @@
         font-size: 1rem;
       }
       .about-logo {
-      position: absolute;
-      left: 50%;
-      margin-left: -65px;
-      top: 10px;
-    }
+        margin-bottom: 20px;
+      }
+      .about-logo img {
+        width: 170px;
+        height: 141px;
+      }
     </style>
+  </head>
+  <body>
+    <div class="message">
+      <div class="about-logo">
+        <img
+          src="/images/logo.png"
+          alt="Aliz Beauty Logo"
+        />
+      </div>        
+      <p>Danke für dein Nachricht. Ich werde mich frühestmöglich melden!</p>
+      <p class="continue">
+        Wir werden automatisch zur Startseite zurückkehren...
+      </p>
+    </div>
   </body>
 </html>
+

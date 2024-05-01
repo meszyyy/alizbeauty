@@ -10,7 +10,7 @@
   .about-text p {
     font-size: 20px;
     font-family: "Montserrat", sans-serif;
-    color: black;
+    color:#955e5e;
     font-weight: normal;
   }
   
@@ -20,20 +20,20 @@
     
   h3 {
     font-family: serif;
-    color: #A87676;
+    color: #333333;
     padding-top: 120px;
     font-weight: bold;
   }
 
   .about-zitate{
     font-family: "Montserrat", sans-serif;
-    color: #A87676;
+    color: #955e5e;
     font-style: italic;
   }
   
   h4 {
     font-family: "Montserrat", sans-serif;
-    color: #A87676 !important;
+    color: #333333 !important;
   }
   .about-bg {
     /* background: rgb(255,208,208);

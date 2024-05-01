@@ -10,7 +10,7 @@ body {
   margin-top: 0px;
   margin-bottom: 0;
   font-family: "Montserrat", sans-serif;
-  color: #A87676;
+  color: #955e5e;
   /* background: rgb(255,208,208);
 background: linear-gradient(90deg, rgba(255,208,208,1) 0%, rgba(225,172,172,1) 50%, rgba(255,208,208,1) 100%); */
 background: #e1acac;
@@ -20,7 +20,7 @@ background: #e1acac;
   text-align: center;
   margin-top: 40px;
   margin-bottom: 40px;
-  color: #A87676;
+  color: #333333;
   font-size: 2rem;
 }
 
