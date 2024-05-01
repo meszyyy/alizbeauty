@@ -10,21 +10,17 @@ body {
   margin-top: 0px;
   margin-bottom: 0;
   font-family: "Montserrat", sans-serif;
-  color: #666666;
-  background: rgb(241, 224, 197);
-  background: linear-gradient(
-    90deg,
-    rgba(241, 224, 197, 1) 0%,
-    rgba(201, 183, 156, 1) 50%,
-    rgba(241, 224, 197, 1) 100%
-  );
+  color: #A87676;
+  /* background: rgb(255,208,208);
+background: linear-gradient(90deg, rgba(255,208,208,1) 0%, rgba(225,172,172,1) 50%, rgba(255,208,208,1) 100%); */
+background: #e1acac;
 }
 
 .mid-heading {
   text-align: center;
   margin-top: 40px;
   margin-bottom: 40px;
-  color: #666666;
+  color: #A87676;
   font-size: 2rem;
 }
 

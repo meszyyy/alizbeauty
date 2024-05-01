@@ -8,6 +8,12 @@
   .lead {
     font-family: "Montserrat", sans-serif;
   }
+
+  .heading-subtext{
+    color:#ca8787;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+  }
   
   .featurette-heading {
     font-weight: 600;
@@ -27,8 +33,9 @@
   }
 
   .lash-section{
-    background: rgb(241,224,197);
-    background: linear-gradient(90deg, rgba(241,224,197,1) 0%, rgba(201,183,156,1) 50%, rgba(241,224,197,1) 100%);
+   /*  background: rgb(255,208,208);
+background: linear-gradient(90deg, rgba(255,208,208,1) 0%, rgba(225,172,172,1) 50%, rgba(255,208,208,1) 100%); */
+background: #e1acac;
     padding-bottom: 0;
   }
 
@@ -36,7 +43,7 @@
   text-align: center;
   margin-top: 160px;
   margin-bottom: 40px;
-  color: #666666;
+  color: #A87676;
   font-size: 2rem;
   font-family: serif;
   font-weight: 600;
@@ -48,20 +55,14 @@
 }
 
 .price-section-lash {
-  background: rgb(255, 255, 255);
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(241, 224, 197, 1) 35%,
-    rgba(252, 252, 252, 1) 100%
-  );
+  background: #ffd0d0;
   margin-top: 40px;
 }
 
 .price-table-lash thead {
   border-bottom: 1px solid white;
   font-weight: 600;
-  color: #666666;
+  color: #A87676;
 }
 
 @media (max-width: 767px) {

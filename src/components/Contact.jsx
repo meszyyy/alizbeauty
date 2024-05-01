@@ -149,7 +149,7 @@ const Contact = () => {
           title="map"
           width='800px"'
           height="300px"
-          style={{ border: "1px solid #666666" }}
+          style={{ border: "1px solid #A87676" }}
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"

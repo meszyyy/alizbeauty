@@ -12,7 +12,7 @@ const Wimpern = () => {
           <div className="row featurette">
             <div className="col-md-7 order-md-2">
               <h2 className="featurette-heading">2D Technik.</h2>
-              <h2 className="text-muted">Bist du natürliche Typ?</h2>
+              <h2 className="heading-subtext">Bist du natürliche Typ?</h2>
               <p className="lead">
                 Die 2D Wimpernverlängerung ist das nächste Level von der
                 klassischen 1:1 Wimpern-Technik. Während bei der Einzeltechnik
@@ -101,7 +101,7 @@ const Wimpern = () => {
           <div className="row featurette">
             <div className="col-md-7">
               <h2 className="featurette-heading">3-4D Volumentechnik.</h2>
-              <h2 className="text-muted">Ein bisschen mehr.</h2>
+              <h2 className="heading-subtext">Ein bisschen mehr.</h2>
               <p className="lead">
                 Die 3D oder 4D Volumentechnik kommt vor allem, für all jene
                 Damen in Frage die sich gerne zeigen und gerne im Mittelpunkt
@@ -202,7 +202,7 @@ const Wimpern = () => {
           <div className="row featurette">
             <div className="col-md-7 order-md-2">
               <h2 className="featurette-heading">5-6D Volumentechnik.</h2>
-              <h2 className="text-muted">Für die Glamouröse.</h2>
+              <h2 className="heading-subtext">Für die Glamouröse.</h2>
               <p className="lead">
                 Bei dieser Wimpern-Technik werden an jedem natürlichen
                 Wimpernhaar gleich mehrere feine Kunstwimpern appliziert. Beim
