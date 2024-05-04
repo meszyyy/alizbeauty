@@ -285,6 +285,25 @@ const Wimpern = () => {
               <tr style={{ borderBottom: "1px solid #333333" }}>
                 <td colSpan="100%"></td>
               </tr>
+              <tr>
+                <td>Wimpern entfernen</td>
+                <td className="text-end">25€</td>
+              </tr>
+              <tr>
+                <td>Farbige Wimpern Mehrpreis(Mengenabhängig)</td>
+                <td className="text-end">+10-20€</td>
+              </tr>
+              <tr>
+                <td>Special Curls(M oder V) Mehrpreis</td>
+                <td className="text-end">+15€</td>
+              </tr>
+              <tr>
+                <td>Beratung nach der Arbeit einer anderen Wimpernstylistin (30 Min.)</td>
+                <td className="text-end">20€</td>
+              </tr>
+              <tr style={{ borderBottom: "1px solid #333333" }}>
+                <td colSpan="100%"></td>
+              </tr>
             </tbody>
           </table>
           <p>
