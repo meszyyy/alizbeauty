@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./styles/styles.css";
 import "./styles/wimpern.css";
 import Tipps from "./Tipps";
 
 const Wimpern = () => {
+  useEffect(() => {
+      // Access and store carousel elements in variables
+      var myCarousel1 = document.querySelector('#carouselExampleIndicators2D')
+      var myCarousel2 = document.querySelector('#carouselExampleIndicators34D')
+      var carousel1 = new window.bootstrap.Carousel(myCarousel1)
+      var carousel2 = new window.bootstrap.Carousel(myCarousel2)
+  }, []);
   return (
     <div>
       <div className="section lash-section" id="dienstleistungen">
@@ -25,6 +32,7 @@ const Wimpern = () => {
               id="carouselExampleIndicators2D"
               className="carousel slide col-md-5"
               data-bs-ride="carousel"
+              data-bs-touch="true"
             >
               <div className="carousel-indicators">
                 <button
@@ -113,6 +121,7 @@ const Wimpern = () => {
               id="carouselExampleIndicators34D"
               className="carousel slide col-md-5"
               data-bs-ride="carousel"
+              data-bs-touch="true"
             >
               <div className="carousel-indicators">
                 <button
