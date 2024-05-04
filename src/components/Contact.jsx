@@ -10,7 +10,7 @@ import { IconContext } from "react-icons";
 const Contact = () => {
   return (
     <div className="section kontakt-section" id="kontakt" href="#kontakt">
-      <h1>Kontakt / Termin vereinbaren</h1>
+      <h1 className="mid-heading">Kontakt / Termin vereinbaren</h1>
       <div className="container py-4">
         <form
           action="https://public.herotofu.com/v1/954ec680-86af-11ed-b38f-a1ed22f366b1"
