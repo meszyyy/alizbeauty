@@ -12,7 +12,7 @@ const Footer = () => {
               <p>
                 Aliz Meszaros
                 <br/>
-                Schillerplatz 13, 8010 Graz
+                Kärntner Straße 510, 8054 Seiersberg
                 <br />
                 info@alizbeauty.at
                 <br />+ 43 681 202 52 649

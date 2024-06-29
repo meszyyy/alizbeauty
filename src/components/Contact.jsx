@@ -145,7 +145,7 @@ const Contact = () => {
 
       <div className="map2 embed-responsive embed-responsive-21by9">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2717.525122501087!2d15.456995077422365!3d47.06916502493408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476e4a62af74423d%3A0xaea69d0478e416fa!2sSchillerpl.%2013%2C%208010%20Graz!5e0!3m2!1shu!2sat!4v1697883912484!5m2!1shu!2sat"          
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d680.0688194822275!2d15.398919808155725!3d47.015201369790255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476fca97ad49f841%3A0xd17fb97ab8652508!2sK%C3%A4rntner%20Str.%20510%2C%208054%20Seiersberg!5e0!3m2!1shu!2sat!4v1719641889053!5m2!1shu!2sat"          
           title="map"
           width='800px"'
           height="300px"
