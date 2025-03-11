@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aliz Beauty - Hausordnung</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #e1acac;
+      }
+
+      img {
+        max-width: 100%; /* A kép maximális szélessége */
+        max-height: 95vh; /* A kép maximális magassága */
+        height: auto;
+        margin: 20px; /* Margó mindkét oldalon 20px */
+      }
+
+      @media (max-width: 1024px) {
+        /* Tabletre alkalmazott stílus */
+        img {
+          max-width: 80%; /* Csökkentett szélesség tableten */
+          max-height: 100vh;
+        }
+      }
+
+      @media (max-width: 768px) {
+        /* Telefonra alkalmazott stílus */
+        img {
+          max-width: 95%; /* Csökkentett szélesség telefonon */
+          max-height: 100vh;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <img src="/images/hausordnung.png" alt="Aliz Beauty - Hausordnung" />
+  </body>
+</html>
