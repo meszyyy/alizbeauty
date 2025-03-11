@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/alizbeauty/precache-manifest.f85a8df59dfb00d513157d1885b86ca8.js"
+  "/alizbeauty/precache-manifest.ccf7b845a30fba7d9abc963c00f0fee7.js"
 );
 
 workbox.clientsClaim();
