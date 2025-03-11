@@ -60,7 +60,7 @@ const Wimpern = () => {
                 <div className="carousel-item active" data-bs-interval="3000">
                   <img
                     className="featurette-image img-fluid mx-auto"
-                    src="images/wimpern/2D_2.JPEG"
+                    src="images/wimpern/2D_2.jpeg"
                     alt="2D Wimpernverlängerung"
                   />
                 </div>
@@ -74,7 +74,7 @@ const Wimpern = () => {
                 <div className="carousel-item" data-bs-interval="3000">
                   <img
                     className="featurette-image img-fluid mx-auto"
-                    src="images/wimpern/2D_4.JPEG"
+                    src="images/wimpern/2D_4.jpeg"
                     alt="2D Wimpernverlängerung"
                   />
                 </div>
@@ -155,21 +155,21 @@ const Wimpern = () => {
                 <div className="carousel-item active" data-bs-interval="3000">
                   <img
                     className="featurette-image img-fluid mx-auto"
-                    src="images/wimpern/3-4D_1.JPG"
+                    src="images/wimpern/3-4D_1.jpg"
                     alt="3-4D Wimpernverlängerung"
                   />
                 </div>
                 <div className="carousel-item" data-bs-interval="3000">
                   <img
                     className="featurette-image img-fluid mx-auto"
-                    src="images/wimpern/3-4D_2.JPEG"
+                    src="images/wimpern/3-4D_2.jpeg"
                     alt="3-4D Wimpernverlängerung"
                   />
                 </div>
                 <div className="carousel-item" data-bs-interval="3000">
                   <img
                     className="featurette-image img-fluid mx-auto"
-                    src="images/wimpern/3-4D_3.JPG"
+                    src="images/wimpern/3-4D_3.jpg"
                     alt="3-4D Wimpernverlängerung"
                   />
                 </div>
